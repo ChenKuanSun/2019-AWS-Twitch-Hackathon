@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-twitchextensionslive-dev-132723-authRole",
+            "UnauthRoleArn": "arn:aws:iam::970522660089:role/amplify-twitchextensionslive-dev-132723-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::970522660089:role/amplify-twitchextensionslive-dev-132723-authRole",
+            "Region": "ap-northeast-1",
+            "DeploymentBucketName": "amplify-twitchextensionslive-dev-132723-deployment",
+            "UnauthRoleName": "amplify-twitchextensionslive-dev-132723-unauthRole",
+            "StackName": "amplify-twitchextensionslive-dev-132723",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:970522660089:stack/amplify-twitchextensionslive-dev-132723/c4f435a0-0831-11ea-b5f7-0e2825cd3a94"
+        },
+        "categories": {
+            "auth": {
+                "twitchextensionslive6ce166eb": {}
+            }
+        }
+    }
+}

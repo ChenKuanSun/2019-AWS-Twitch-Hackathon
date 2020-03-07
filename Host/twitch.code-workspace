@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "twitch-extensions-live",
+			"path": "."
+		},
+		{
+			"name": "twitch-extension-panel",
+			"path": "/Users/cksun/project/angular/twitch-extension-panel"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "twitch-extension-panel"
+	}
+}

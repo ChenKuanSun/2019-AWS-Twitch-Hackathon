@@ -1,0 +1,75 @@
+<nb-layout>
+  <nb-layout-column>
+    <nb-card class="main" [nbSpinner]="!(products$ | async)">
+    <!-- <nb-card class="main"> -->
+      <nb-card-header class="banner"><img [src]="'assets/layout/redvirus.gif'"><h1>XPRESSIONZ</h1></nb-card-header>
+      <nb-list *ngIf="products$ | async as products">
+        <nb-list-item *ngFor="let product of products" (click)="buyProduct(product.sku)">
+          <div class="img-container">
+            <img [src]="showImage(product.sku)">
+            <img class="base-face" [src]="'assets/layout/Face.svg'">
+          </div>
+          <label>
+            {{ product.displayName }}
+          </label>
+          <div class="cost-container">
+            {{ product.cost.amount }}
+            <img [src]="bitsLevel(product.cost.amount)">
+          </div>
+        </nb-list-item>
+        <!-- <nb-list-item>
+          <div class="img-container">
+            <img [src]="'assets/shy.png'">
+            <img class="base-face" [src]="'assets/layout/Face.svg'">
+          </div>
+          <label>
+            Shy
+          </label>
+          <div class="cost-container">
+            20
+            <img [src]="bitsLevel(20)">
+          </div>
+        </nb-list-item> -->
+        <!-- <nb-list-item>
+          <div class="img-container">
+            <img [src]="'assets/sunglasses.png'">
+            <img class="base-face" [src]="'assets/layout/Face.svg'">
+          </div>
+          <label>
+            Glasses
+          </label>
+          <div class="cost-container">
+            100
+            <img [src]="bitsLevel(100)">
+          </div>
+        </nb-list-item>
+        <nb-list-item>
+          <div class="img-container">
+            <img [src]="'assets/pixelsunglasses.png'">
+            <img class="base-face" [src]="'assets/layout/Face.svg'">
+          </div>
+          <label>
+            Pixelsunglasses
+          </label>
+          <div class="cost-container">
+            1
+            <img [src]="bitsLevel(1)">
+          </div>
+        </nb-list-item>
+        <nb-list-item>
+          <div class="img-container">
+            <img [src]="'assets/thug_life.png'">
+            <img class="base-face" [src]="'assets/layout/Face.svg'">
+          </div>
+          <label>
+            Thug life
+          </label>
+          <div class="cost-container">
+            5000
+            <img [src]="bitsLevel(500)">
+          </div>
+        </nb-list-item> -->
+      </nb-list>
+    </nb-card>
+  </nb-layout-column>
+</nb-layout>

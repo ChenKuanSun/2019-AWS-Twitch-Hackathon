@@ -1,0 +1,72 @@
+.example-card {
+  position: relative;
+  width: 100vw;
+  max-width: 480px;
+  height: 100vh;
+  max-height: 600px;
+}
+
+nb-card-header {
+  width: 100%;
+}
+nb-card-body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 120px;
+  & > div {
+    margin-bottom: 10px;
+  }
+}
+nb-list {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  overflow: auto;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+nb-list-item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  & > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    font-size: 14px;
+  }
+  &:hover {
+    background: #e6e6e6;
+  }
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.canvas-container {
+  width: 100%;
+  height: 400px;
+}

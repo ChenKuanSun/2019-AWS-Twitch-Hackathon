@@ -1,0 +1,10 @@
+{
+	"function": {},
+	"auth": {
+		"twitchextensionslive6ce166eb": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

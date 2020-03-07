@@ -1,0 +1,21 @@
+@import "themes";
+
+@import "~@nebular/theme/styles/globals";
+
+@include nb-install() {
+  @include nb-theme-global();
+}
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'FREAKSOFNATUREMASSIVE';
+  src: URL('assets/layout/FREAKSOFNATUREMASSIVE.ttf') format('truetype');
+}
+
+
+html,
+body {
+  overflow: hidden;
+  font-family: 'Noto Sans TC', sans-serif;
+}

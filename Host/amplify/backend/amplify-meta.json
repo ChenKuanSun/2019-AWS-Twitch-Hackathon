@@ -1,0 +1,37 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-twitchextensionslive-dev-132723-authRole",
+			"UnauthRoleArn": "arn:aws:iam::970522660089:role/amplify-twitchextensionslive-dev-132723-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::970522660089:role/amplify-twitchextensionslive-dev-132723-authRole",
+			"Region": "ap-northeast-1",
+			"DeploymentBucketName": "amplify-twitchextensionslive-dev-132723-deployment",
+			"UnauthRoleName": "amplify-twitchextensionslive-dev-132723-unauthRole",
+			"StackName": "amplify-twitchextensionslive-dev-132723",
+			"StackId": "arn:aws:cloudformation:ap-northeast-1:970522660089:stack/amplify-twitchextensionslive-dev-132723/c4f435a0-0831-11ea-b5f7-0e2825cd3a94"
+		}
+	},
+	"function": {},
+	"auth": {
+		"twitchextensionslive6ce166eb": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-twitchextensionslive-dev-132723-deployment/amplify-cfn-templates/auth/twitchextensionslive6ce166eb-cloudformation-template.yml",
+				"logicalId": "authtwitchextensionslive6ce166eb"
+			},
+			"lastPushTimeStamp": "2019-11-16T05:44:32.058Z",
+			"output": {
+				"AppClientSecret": "rormvqb3raaice8hk0ne22fskassd2akir5gq2o0eb3sj5kbuod",
+				"UserPoolId": "ap-northeast-1_26jg5oyOj",
+				"AppClientIDWeb": "2nt8qep2b8keqskd8quuf1dlsv",
+				"AppClientID": "4p9m2fg8qtsu199p1em3r1r7ou",
+				"IdentityPoolId": "ap-northeast-1:e743bb2e-edee-4a3a-8544-383e01a112f1",
+				"IdentityPoolName": "twitchextensionslive6ce166eb_identitypool_6ce166eb__dev",
+				"UserPoolName": "twitchextensionslive6ce166eb_userpool_6ce166eb"
+			},
+			"lastPushDirHash": "1Ph9QOjh11unoOIRy5hmRdp0Glg="
+		}
+	}
+}
